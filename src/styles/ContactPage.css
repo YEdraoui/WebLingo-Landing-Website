@@ -1,0 +1,21 @@
+.contact-page {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .contact-page h1 {
+    color: #1E90FF;
+    margin-bottom: 20px;
+  }
+  
+  .contact-page p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .contact-page p a {
+    color: #1E90FF;
+    text-decoration: none;
+  }
+  

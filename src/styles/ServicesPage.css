@@ -1,0 +1,22 @@
+.services-page {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .services-page h1 {
+    color: #1E90FF;
+    margin-bottom: 20px;
+  }
+  
+  .services-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services-page li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  

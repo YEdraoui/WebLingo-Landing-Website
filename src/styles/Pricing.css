@@ -1,0 +1,15 @@
+.pricing {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .pricing h2 {
+    color: #1E90FF;
+    margin-bottom: 20px;
+  }
+  
+  .pricing p {
+    font-size: 18px;
+    color: #333;
+  }
