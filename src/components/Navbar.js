@@ -1,11 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../styles/Navbar.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../assets/Logo.png';
+import '../styles/Navbar.css';
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2>WebLingo</h2>
+      <div className="logo-container">
+        <img src={logo} alt="WebLingo Logo" className="logo" />
+      </div>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>

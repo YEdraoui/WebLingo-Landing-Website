@@ -1,12 +1,15 @@
 .services-page {
     padding: 50px 20px;
     text-align: center;
-    background-color: #ffffff;
+    background: linear-gradient(90deg, #003366, #1E90FF);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    animation: fadeInUp 1.5s ease-out;
+    color: white;
   }
   
   .services-page h1 {
-    color: #1E90FF;
-    margin-bottom: 20px;
+    font-size: 36px;
   }
   
   .services-page ul {
@@ -16,7 +19,17 @@
   
   .services-page li {
     font-size: 18px;
-    color: #333;
     margin-bottom: 10px;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
   

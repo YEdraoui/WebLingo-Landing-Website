@@ -1,15 +1,16 @@
 .pricing {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f8f9fa;
+    background: linear-gradient(90deg, #003366, #1E90FF);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
   }
   
-  .pricing h2 {
-    color: #1E90FF;
-    margin-bottom: 20px;
+  .pricing:hover {
+    transform: scale(1.05);
   }
   
-  .pricing p {
-    font-size: 18px;
-    color: #333;
+  .pricing h2, .pricing p {
+    color: white;
   }
